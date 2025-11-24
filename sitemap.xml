@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://u7u7.top/site/census/index.html</loc>
+    <loc>https://u7u7.top/personal/love/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://u7u7.top/personal/love/index.html</loc>
+    <loc>https://u7u7.top/site/census/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://u7u7.top/life/games/index.html</loc>
+    <loc>https://u7u7.top/personal/about/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://u7u7.top/life/music/index.html</loc>
+    <loc>https://u7u7.top/life/games/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://u7u7.top/personal/about/index.html</loc>
+    <loc>https://u7u7.top/life/music/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -120,6 +120,15 @@
   
   <url>
     <loc>https://u7u7.top/categories/index.html</loc>
+    
+    <lastmod>2025-11-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://u7u7.top/box/gallery/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://u7u7.top/box/nav/index.html</loc>
-    
-    <lastmod>2025-11-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://u7u7.top/box/gallery/index.html</loc>
     
     <lastmod>2025-11-24</lastmod>
     
