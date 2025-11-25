@@ -350,7 +350,7 @@ document.addEventListener("copy", function () {
     new Vue({
       data: function () {
         this.$notify({
-          title: "哎嘿！复制成功🍬",
+          title: "哎嘿！复制成功",
           message: "若要转载最好保留原文链接哦，给你一个大大的赞！",
           position: 'top-left',
           offset: 50,
@@ -371,7 +371,7 @@ document.onkeydown = function (e) {
       new Vue({
         data: function () {
           this.$notify({
-            title: "你已被发现😜",
+            title: "你已被发现",
             message: "小伙子，扒源记住要遵循GPL协议！",
             position: 'top-left',
             offset: 50,
@@ -1076,7 +1076,7 @@ function changeMouseMode() {
       new Vue({
         data: function () {
           this.$notify({
-            title: "切换右键模式成功🍔",
+            title: "切换右键模式成功",
             message: "当前鼠标右键已恢复为系统默认！",
             position: 'top-left',
             offset: 50,
@@ -1094,7 +1094,7 @@ function changeMouseMode() {
       new Vue({
         data: function () {
           this.$notify({
-            title: "切换右键模式成功🍔",
+            title: "切换右键模式成功",
             message: "当前鼠标右键已更换为网站指定样式！",
             position: 'top-left',
             offset: 50,
@@ -1121,8 +1121,8 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到u7u7🍋の小家!`,
-    `u7 and cc is now 🍭🍭🍭`,
+    `欢迎来到MoMoの小家!`,
+    `MoMo is now `,
     `
         
     ██╗   ██╗███████╗██╗   ██╗███████╗  ██████╗ ██████╗
@@ -1158,7 +1158,7 @@ function createtime1() {
 createtime1();
 
 function createtime2() {
-  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
+  var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, `  `];
 
   setTimeout(
     console.log.bind(
@@ -1171,12 +1171,12 @@ function createtime2() {
     )
   );
 
-  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，大聪明", "color:white; background-color:#23c682", ""));
+  setTimeout(console.log.bind(console, "%c WELCOME %c 欢迎光临，小宝宝", "color:white; background-color:#23c682", ""));
 
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by u7u7🍋 %c 你正在访问u7u7🍋の小家",
+      "%c ⚡ Powered by MoMo 你正在访问MoMoの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1286,12 +1286,12 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| u7u7🍋") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('u7u7🍋的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| MoMo") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('MoMo的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！');
     new Vue({
       data: function () {
         this.$notify({
-          title: "成功复制分享信息🎉",
+          title: "成功复制分享信息",
           message: "您现在可以通过粘贴直接跟小伙伴分享了！",
           position: 'top-left',
           offset: 50,
@@ -1325,11 +1325,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👻U7在这呐~';
+    document.title = 'MoMo在这呐~';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '💀抓到CC啦～';
+    document.title = 'MoMo被抓住了';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2793,7 +2793,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("09/13/2022 00:00:00");
+  var grt = new Date("25/11/2025 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3260,7 +3260,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对🤣",
+          title: "链接不对",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,
